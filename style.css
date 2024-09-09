@@ -3,7 +3,7 @@ html {
 }
 
 body {
-        font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', sans-serif;
     margin: 0;
 }
 
@@ -117,7 +117,7 @@ header {
 .main-section h1 {
     font-size: 4rem;
     color: #FEC41A;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', sans-serif;
     font-weight: 600;
     text-shadow: 2px 2px 8px #000;
     line-height: 1.2;
@@ -142,7 +142,7 @@ header {
     background-color: #8B0304;
     border: none;
     transition: ease .3s;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', sans-serif;
 }
 
 .join-now button:hover {
@@ -180,7 +180,7 @@ header {
 }
 
 .col-event h2 {
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', sans-serif;
 }
 
 .card-images {
@@ -204,6 +204,7 @@ header {
 
 .col-event p {
     text-align: justify;
+    font-family: "Nekro one", sans-serif;
 }
 
 .col-event button {
@@ -258,7 +259,7 @@ select {
     border-radius: 4px;
     border: none;
     margin-bottom: 20px;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', sans-serif;
 }
 
 .submit {
@@ -344,7 +345,7 @@ a {
     list-style: none;
     color: #fff;
     line-height: 2;
-    font-weight: 500;
+   
     transition: ease .5s;
 }
 
