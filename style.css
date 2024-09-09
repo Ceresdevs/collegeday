@@ -1,0 +1,431 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+        font-family: 'Nerko One', cursive;
+    margin: 0;
+}
+
+header {
+    background-color: #8B0304;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    width: 20%;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 50px;
+}
+
+.department {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar ul {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: ease .3s;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: #FEC41A;
+    transition: .3s;
+}
+
+
+.banner {
+    margin-top: 5em;
+    text-align: center;
+    width: 100%;
+}
+
+.banner img {
+    margin: 0;
+    width: 80%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-section-bg {
+    background-image: url(images/bg1.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+}
+
+.main-section .bario-fiesta {
+    color: #8B0304;
+    text-shadow: 10px 10px 8px #FEC41A;
+
+    font-size: 2em;
+}
+
+.main-section h1 {
+    font-size: 4rem;
+    color: #FEC41A;
+    font-family: 'Nerko One', cursive;
+    font-weight: 600;
+    text-shadow: 2px 2px 8px #000;
+    line-height: 1.2;
+}
+
+.main-section span {
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0px;
+}
+
+.join-now {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.join-now button {
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #8B0304;
+    border: none;
+    transition: ease .3s;
+    font-family: cursive;
+}
+
+.join-now button:hover {
+    color: #FEC41A;
+    scale: 1.1;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.event-section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.event-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+.event-container1 {
+    margin-bottom: 10px;
+}
+
+.col-event {
+    width: 25%;
+    /* border: 2px solid magenta;*/
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+
+.col-event h2 {
+    font-family: 'Nerko One', cursive;
+}
+
+.col-event p {
+    font-family: cursive;
+}
+
+.card-images {
+    margin: 0 auto;
+    width: 100%;
+    height: 40%;
+    /*  border: 2px solid green;*/
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-images img {
+    width: 100%;
+}
+
+.col-event h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.col-event p {
+    text-align: justify;
+}
+
+.col-event button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8B0304;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: .3s;
+
+}
+
+.col-event button:hover {
+    opacity: .6;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.registration-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-section h2 {
+    text-align: center;
+}
+
+
+.registration-card {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    padding: 40px;
+    box-shadow: 10px 10px 20px rgba(30, 30, 30, .2);
+}
+
+
+.registration-card form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registration-card input,
+select {
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration-card button {
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #8B0304;
+    width: 100%;
+    transition: ease .3s;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.registration-card button:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s;
+}
+
+footer {
+    width: 100%;
+    background-color: #8B0304;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15em;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.footer-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.col {
+    margin-top: 12px;
+    margin-right: 4em;
+    color: #fff;
+}
+
+.first-col {
+    width: 18%;
+}
+
+
+.footer-logo img {
+    width: 30%;
+}
+
+.footer-logo h3 {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.footer-socials {
+    text-align: center;
+}
+
+
+
+.footer-contacts h3 {
+    text-align: center;
+    width: 40%;
+    margin-left: 30px;
+}
+
+footer ul {
+    text-align: justify;
+}
+
+footer li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    line-height: 2;
+    font-weight: 500;
+    transition: ease .5s;
+}
+
+footer a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+@media(max-width: 1020px)  {
+
+    body {
+        margin: 0;
+    }
+
+    .navbar, .department {
+        display: none;
+    }
+    
+    .banner img{
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .main-section-bg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-section h1{
+        font-size: 3em;
+    }
+
+    .event-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .event-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .col-event {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card-images {
+        width: 100%;
+    }
+
+    .card-images img {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        margin: 0;
+    }
+    .footer-container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+    .col {
+        margin: 0;
+    }
+
+}
