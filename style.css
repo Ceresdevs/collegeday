@@ -276,7 +276,7 @@ select {
     width: 100%;
     transition: ease .3s;
     font-weight: 700;
-    font-family: 'Nerko One', sans-serif;
+    font-family: cursive;
 }
 
 .registration-card button:hover {
@@ -361,8 +361,16 @@ footer a:hover {
         margin: 0;
     }
 
-    .navbar, .department {
+    .department {
         display: none;
+    }
+    .navbar {
+        margin-right: 110px;
+    }
+    .navbar a {
+       margin: 0;
+       padding: 0;
+    
     }
     
     .banner img{
