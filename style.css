@@ -276,7 +276,7 @@ select {
     width: 100%;
     transition: ease .3s;
     font-weight: 700;
-    font-family: cursive;
+    font-family: 'Nerko One', sans-serif;
 }
 
 .registration-card button:hover {
